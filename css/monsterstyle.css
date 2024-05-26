@@ -1,0 +1,296 @@
+:root {
+  --color-primary: rgba(180, 117, 0, 0.363);
+  --color-primary-dark: rgba(126, 82, 1, 0.753);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+nav {
+  padding: 10px;
+  z-index: 0;
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-primary-dark),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* margin-left: 1rem; */
+}
+
+nav .nav-link {
+  color: inherit;
+  font-weight: 500;
+}
+
+nav .nav-link:hover {
+  color: white;
+}
+
+nav .btn {
+  font-weight: 500;
+  border: none;
+}
+
+nav .btn:hover {
+  color: white;
+}
+
+nav .dropdown-menu {
+  background-color: rgb(27, 27, 27);
+  border: none;
+  min-width: 8rem;
+  padding-left: -0.5rem;
+  border-radius: 1px;
+}
+
+nav .dropdown-item {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+
+nav .dropdown-item:hover {
+  transform: both 0.5s;
+}
+
+.hero {
+  margin-top: -4rem;
+}
+
+.hero .row {
+  margin-top: -10rem;
+  margin-left: -5rem;
+}
+
+.hero p {
+  font-weight:600;
+}
+
+.hero img {
+  width: 100%;
+  /* position: relative; */
+  filter: opacity(70%);
+}
+
+.title-list {
+  min-height: 200vh;
+  background-color: var(--color-primary);
+}
+
+.title-list .row {
+  padding-top: 2rem;
+  margin-left: -5rem;
+}
+
+.title-list .card {
+  position: relative;
+  background-color: rgba(126, 82, 1, 0.411);
+  margin-top: 2rem;
+  height: 34rem;
+  font-size: 15px;
+}
+
+.title-list .card .card-img-top {
+  width: 100%;
+  padding: 2px;
+}
+
+.title-list .card p {
+  padding-right:10px;
+}
+
+.title-list .card .btn {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.685);
+  color: white;
+  padding: auto 8px;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.title-list .card .btn:hover {
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+}
+/* MEDIA QUERY */
+@media(max-width:1020px) {
+  html {
+    font-size: 100%;
+  }
+
+  .hero {
+    margin-top: -5rem;
+  }
+
+  .hero .row {
+    margin-top: -9rem;
+    margin-left:-2rem;
+  }
+
+  .title-list .row {
+    margin-left: 1rem;
+  }
+
+  .title-list .card {
+    font-size: 100%;
+  }
+
+  .title-list .card p {
+    position: absolute;
+    top: 23rem;
+  }
+}
+
+@media(max-width:900px) {
+  html {
+    font-size: 90%;
+  }
+
+  .hero {
+    margin-top: -5rem;
+  }
+
+  .hero .row {
+    margin-top: -10rem;
+    margin-left: -4rem;
+  }
+
+  .title-list .row {
+    margin-left: 1rem;
+  }
+
+  .title-list .card {
+    font-size: 80%;
+  }
+
+  .title-list .card p {
+    position: absolute;
+    top: 23rem;
+  }
+}
+
+@media(max-width:800px) {
+  html {
+    font-size: 80%;
+  }
+
+  .hero {
+    margin-top: -5rem;
+  }
+
+  .hero .row {
+    margin-top: -8.5rem;
+    margin-left: -2.5rem;
+  }
+
+  .title-list .row {
+    margin-left: 1rem;
+  }
+
+  .title-list .card {
+    font-size: 90%;
+  }
+
+  .title-list .card p {
+    position: absolute;
+    top: 23rem;
+  }
+}
+
+@media(max-width:700px) {
+  html {
+    font-size: 70%;
+  }
+
+  .hero {
+    margin-top: -5rem;
+  }
+
+  .hero .row {
+    margin-top: -9rem;
+    margin-left: -7rem;
+  }
+
+  .title-list .row {
+    margin-left: 1rem;
+  }
+
+  .title-list .card {
+    font-size: 85%;
+  }
+
+  .title-list .card p {
+    position: absolute;
+    top: 23rem;
+  }
+}
+
+@media(max-width:600px) {
+  html {
+    font-size: 60%;
+  }
+
+  .hero {
+    margin-top: -5rem;
+  }
+
+  .hero .row {
+    margin-top: -8.5rem;
+    margin-left: -3rem;
+  }
+
+  .title-list .row {
+    margin-left: 1rem;
+  }
+
+  .title-list .card {
+    font-size: 90%;
+  }
+
+  .title-list .card p {
+    position: absolute;
+    top: 23rem;
+  }
+}
+
+@media(max-width:500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    margin-top: -5.2rem;
+  }
+
+  .hero .row {
+    margin-top: -8.5rem;
+    margin-left: 1rem;
+  }
+
+  .title-list .row {
+    margin-left: 1rem;
+  }
+
+  .title-list .card {
+    font-size: 80%;
+  }
+
+  .title-list .card p {
+    position: absolute;
+    top: 23rem;
+  }
+}
