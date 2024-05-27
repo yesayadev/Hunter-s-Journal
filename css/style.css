@@ -368,3 +368,30 @@ footer .row-footer a:hover {
     margin-left: 6.5rem;
   }
 }
+
+@media(max-width:21.5em) {
+  html {
+    font-size: 30%;
+  }
+
+  .hero .row {
+    height: 18rem;
+    margin-top: -15rem ;
+  }
+
+  .home {
+    min-height: 93vh;
+  }
+
+  .home .row {
+    margin-left: 6.5rem;
+  }
+  
+  .updates {
+    margin-top: -85rem;
+  }
+  
+  .updates .row {
+    margin-left: 6.5rem;
+  }
+}

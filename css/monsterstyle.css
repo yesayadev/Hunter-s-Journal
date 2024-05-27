@@ -216,3 +216,33 @@ nav .dropdown-item:hover {
     font-size: 100%;
   }
 }
+
+@media (max-width: 21.5em) {
+  html {
+    font-size: 30%;
+  }
+
+  .hero {
+    margin-top: -7rem;
+  }
+
+  .hero .row {
+    margin-left: 0;
+  }
+
+  .title-list {
+    min-height: 80vh;
+  }
+
+  .title-list .row {
+    margin-left: 0;
+  }
+
+  .title-list .card {
+    font-size: 100%;
+  }
+
+  .title-list .card p {
+    font-size: 80%;
+  }
+}
