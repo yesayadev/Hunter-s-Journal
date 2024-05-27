@@ -127,18 +127,31 @@ nav .dropdown-item:hover {
   color: white;
 }
 /* MEDIA QUERY */
-@media (max-width: 1020px) {
+@media (max-width: 84em) {
   html {
-    font-size: 90%;
-  }
-
-  .hero {
-    margin-top: -5rem;
+    font-size: 100%;
   }
 
   .hero .row {
-    margin-top: -9rem;
     margin-left: -2rem;
+  }
+
+  .title-list .row {
+    margin-left: -2rem;
+  }
+
+  .title-list .card {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 100%;
+  }
+
+  .hero .row {
+    margin-left: 1rem;
   }
 
   .title-list .row {
@@ -148,161 +161,58 @@ nav .dropdown-item:hover {
   .title-list .card {
     font-size: 100%;
   }
+}
 
-  .title-list .card p {
-    position: absolute;
-    top: 23rem;
+@media (max-width: 59em) {
+  html {
+    font-size: 80%;
+  }
+
+  .hero .row {
+    margin-left: -8rem;
+  }
+
+  .title-list .row {
+    margin-left: -8rem;
+  }
+
+  .title-list .card {
+    font-size: 100%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 44em) {
   html {
     font-size: 70%;
   }
 
-  .hero {
-    margin-top: -5rem;
-  }
-
   .hero .row {
-    margin-top: -10rem;
     margin-left: -4rem;
   }
 
   .title-list .row {
-    margin-left: 1rem;
+    margin-left: -4rem;
   }
 
   .title-list .card {
-    font-size: 80%;
-  }
-
-  .title-list .card p {
-    position: absolute;
-    top: 23rem;
+    font-size: 100%;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 34em) {
   html {
     font-size: 70%;
   }
 
-  .hero {
-    margin-top: -5rem;
-  }
-
   .hero .row {
-    margin-top: -8.5rem;
-    margin-left: -2.5rem;
+    margin-left: 0;
   }
 
   .title-list .row {
-    margin-left: 1rem;
+    margin-left: 0;
   }
 
   .title-list .card {
-    font-size: 90%;
-  }
-
-  .title-list .card p {
-    position: absolute;
-    top: 23rem;
-  }
-}
-
-@media (max-width: 700px) {
-  html {
-    font-size: 50%;
-  }
-
-  .hero {
-    margin-top: -5rem;
-  }
-
-  .hero .row {
-    margin-top: -9rem;
-    margin-left: -7rem;
-  }
-
-  .title-list .row {
-    margin-left: 1rem;
-  }
-
-  .title-list .card {
-    font-size: 85%;
-  }
-
-  .title-list .card p {
-    position: absolute;
-    top: 23rem;
-  }
-}
-
-@media (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-
-  .hero {
-    margin-top: -5rem;
-  }
-
-  .hero .row {
-    margin-top: -8.5rem;
-    margin-left: -3rem;
-  }
-
-  .title-list .row {
-    margin-left: 1rem;
-  }
-
-  .title-list .card {
-    font-size: 90%;
-  }
-
-  .title-list .card p {
-    position: absolute;
-    top: 23rem;
-  }
-}
-
-@media (max-width: 500px) {
-  html {
-    font-size: 50%;
-  }
-
-  .hero {
-    margin-top: -5.2rem;
-  }
-
-  .hero .row {
-    margin-top: -8.5rem;
-    margin-left: 1rem;
-  }
-
-  .title-list .row {
-    margin-left: 1rem;
-  }
-
-  .title-list .card {
-    font-size: 80%;
-  }
-
-  .title-list .card p {
-    position: absolute;
-    top: 23rem;
-  }
-}
-
-@media (max-width: 400px) {
-  html {
-    font-size: 40%;
-  }
-}
-
-@media (max-width: 300px) {
-  html {
-    font-size: 30%;
+    font-size: 100%;
   }
 }
